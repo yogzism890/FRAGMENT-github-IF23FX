@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 //        buat variabel bundle
             val bundle = Bundle()
 //        kirim parameter
-            bundle.putString("Content3", "ini contoh fragment 3")
+            bundle.putString("Content3", "ini contoh fragment 3 anjay")
             fragment.arguments = bundle
             //            buka fragmen menu3
             supportFragmentManager.beginTransaction().replace(R.id.frm_content, fragment)
